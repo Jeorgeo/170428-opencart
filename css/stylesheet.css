@@ -6521,11 +6521,171 @@ border-radius:5px;
   float: left;
   width: 2em;
   height: auto;
-  margin: 1em 1.2em 1em 0.4em;
+  margin: 0 1.2em 1em 0.4em;
+}
+
+.service-gray-box {
+  display: table;
+  width: 100%;
+  padding: 0.8em 1.4em;
+  color: #0088cc;
+  background-color: #ebebeb;
 }
 
 .service-icon {
   margin-left: 1.2em;
+}
+
+.service-gray-box p {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/*---------------------custom css for delivery--------------------------------*/
+
+.delivery-title {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.develary-mark {
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 2.5em;
+}
+
+.delivery-icon {
+  margin-left: 1.5em;
+}
+
+.develary-mark p {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.delivery-gray-box {
+  width: 100%;
+  padding: 1em;
+  background-color: #f3f6f7;
+}
+
+.delivery-gray-title {
+  float: left;
+  width: 70%;
+  padding: 1.5% 0;
+}
+
+.delivery-gray-icon {
+  float: right;
+  width: 160px;
+  margin-right: 0.7em;
+  padding: 2em 2.5em;
+  border: 3px solid #ffffff;
+}
+
+.delivery-faq {
+  text-align: center;
+}
+
+/*---------------------custom css for insure--------------------------------*/
+
+.insure-company {
+  padding: 1.5em 0;
+}
+
+.insure-company-title {
+  float: left;
+  width: 70%;
+}
+
+.insure-company-title p {
+  margin: 0;
+}
+
+.insure-company-img {
+  float: right;
+  width: 181px;
+}
+
+.insure-icon {
+  margin-left: 1.4em;
+}
+
+/*---------------------custom css for about--------------------------------*/
+
+#about .about-advantage {
+  display: block;
+  width: 100%;
+  margin: 1em 0;
+}
+
+#about .about-advantage-img {
+  float: left;
+  margin: 0 1.8em 0 0;
+  padding: 6px;
+  width: 78px;
+  height: 78px;
+  background-color: #e8e8e8;
+  box-sizing: border-box;
+}
+
+#about .about-advantage p {
+  float: left;
+  width: 85%;
+  margin: 0;
+}
+
+#about .about-advantage-title {
+  display: block;
+  margin-bottom: 1em;
+  color: #0088cc;
+}
+
+#about .about-gray-box {
+  display: table;
+  width: 100%;
+  padding: 0.8em 1.4em;
+  color: inherit;
+  background-color: #ebebeb;
+}
+
+#about .about-icon {
+  margin-left: 1.2em;
+}
+
+#about .about-gray-box p {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 1.2em;
+}
+
+/*---------------------custom css for payments--------------------------------*/
+
+.payment-box {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 40%;
+  margin: 2em 4%;
+  padding: 0;
+}
+
+.payment-box-icon {
+  display: block;
+  width: 100%;
+}
+
+.payment-title {
+  color: #2298d3;
+}
+
+.payment-box p {
+  display: block;
+  width: 100%;
 }
 
 /*------*/
