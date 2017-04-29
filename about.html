@@ -9,6 +9,80 @@
   </head>
   <body>
     <div class="col-sm-12">
+      <style media="screen">
+      .about-main-box {
+        margin-top: 2em;
+        padding: 1.875em 1.25em;
+        background-color: #f3f6f7;
+      }
+
+      p {
+        margin: 1.2em 0;
+      }
+
+      .about-main-description{
+        margin: 2em 0;
+      }
+
+      .about-advantage {
+        display: block;
+        width: 100%;
+        margin: 1em 0;
+      }
+
+      .about-main-title {
+        color: #0088cc;
+      }
+
+      .about-advantage-img {
+        float: left;
+        margin: 0 1.8em 0 0;
+        padding: 6px;
+        width: 78px;
+        height: 78px;
+        background-color: #e8e8e8;
+        box-sizing: border-box;
+      }
+
+      .about-advantage p {
+        float: left;
+        width: 65%;
+        margin: 0;
+      }
+
+      .about-advantage-title {
+        display: block;
+        margin-bottom: 1em;
+        color: #0088cc;
+      }
+
+      .about-gray-box {
+        display: table;
+        width: 100%;
+        padding: 0.8em 1.4em;
+        color: inherit;
+        background-color: #ebebeb;
+      }
+
+      .about-icon {
+        margin-left: 1.2em;
+      }
+
+      .about-gray-box p {
+        display: table-cell;
+        width: 100%;
+        vertical-align: middle;
+        font-size: 1.2em;
+      }
+
+      @media screen and (min-width: 600px) {
+        .about-advantage p {
+          width: 85%;
+        }
+      }
+
+
+      </style>
       <div class="about-main-box">
         <p><span class="about-main-title">New Electro</span> – новый формат интернет-магазина для шоппинга в Европе</p>
         <p></p>
@@ -18,13 +92,15 @@
         К тому же качество покупки часто оказывается неудовлетворительным,
         а небольшие интернет-ритейлеры не готовы предоставлять полноценную сервисную поддержку.</p>
       </div>
-      <p>Мы оценили ситуацию на рынке – и решили в корне ее изменить.</p>
-      <p></p>
-      <p>Интернет-магазин New Electro – первая в России немецкая компания,<br>
-      поставляющая электронику из Германии по лучшим европейским ценам.</p>
+      <div class="about-main-description">
+        <p>Мы оценили ситуацию на рынке – и решили в корне ее изменить.</p>
+        <p></p>
+        <p>Интернет-магазин New Electro – первая в России немецкая компания,<br>
+        поставляющая электронику из Германии по лучшим европейским ценам.</p>
+      </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-1.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-1.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Только оригинальные товары от лучших производителей и поставщиков Германии</span></p>
         <p>У нас заключены контракты с несколькими крупными немецкими компаниями, поставляющими электронику и бытовую технику – это гарантирует подлинность товаров и их высокое качество.
@@ -33,7 +109,7 @@
       </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-2.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-2.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Безопасная онлайн-оплата</span></p>
         <p>Мы принимаем только электронные платежи с помощью карт платежных систем Visa и MasterCard.
@@ -42,7 +118,7 @@
       </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-3.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-3.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Быстрая бесплатная доставка</span></p>
         <p>Доставка по России бесплатная, осуществляется Почтой России и занимает от 14 до 30 дней.
@@ -50,7 +126,7 @@
       </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-4.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-4.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Страхование почтовых отправлений</span></p>
         <p>Мы предоставляем полную <a href="#">страховку</a> ваших посылок вместе с компанией Ренессанс cтрахование.
@@ -58,7 +134,7 @@
       </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-5.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-5.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Доступ к уникальным предложениям</span></p>
         <p>На нашем сайте вы можете найти новинки электроники и бытовой техники, которые появляются
@@ -66,19 +142,21 @@
       </div>
       <div class="about-advantage clearfix">
         <div class="about-advantage-img">
-          <img src="img/about-6.png" width="66" height="66" alt="">
+          <img src="https://newelectro.store/image/about-6.png" width="66" height="66" alt="">
         </div>
         <p><span class="about-advantage-title">Гарантийное обслуживание</span></p>
         <p>Да, вы не ослышались. Мы – первый интернет-магазин, который берет на себя сервисное обслуживание купленного товара. Если с техникой возникла проблема – наш сервисный партнер
         в России в течение гарантийного срока совершенно бесплатно устранит ее, или мы вернем вам деньги.</p>
       </div>
-      <p>Пришло время открыть для себя мир выгодных и безопасных онлайн-покупок!<br>
-      В нашем интернет-магазине вас ждут сотни по-настоящему выгодных и качественных предложений:
-      <p></p>
-      <p>бытовая техника, смартфоны, домашние hi-fi системы, компьютеры, товары для фото и многое другое.</p>
+      <div class="about-main-description">
+        <p>Пришло время открыть для себя мир выгодных и безопасных онлайн-покупок!<br>
+        В нашем интернет-магазине вас ждут сотни по-настоящему выгодных и качественных предложений:
+        <p></p>
+        <p>бытовая техника, смартфоны, домашние hi-fi системы, компьютеры, товары для фото и многое другое.</p>
+      </div>
       <div class="about-gray-box clearfix">
        <div class="icon">
-        <img class="about-icon" src="img/about-7.png" alt="" width="53" height="44">
+        <img class="about-icon" src="https://newelectro.store/image/about-7.png" alt="" width="53" height="44">
        </div>
        <p>Остались вопросы? Вы наверняка найдете ответы в разделе <a href="#">FAQ</a>.</p>
       </div>

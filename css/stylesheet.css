@@ -6508,6 +6508,14 @@ border-radius:5px;
   clear: both;
 }
 
+p {
+  margin: 1.2em 0;
+}
+
+.service-marks {
+  margin: 2em 0;
+}
+
 .service-mark {
   display: block;
 }
@@ -6521,7 +6529,7 @@ border-radius:5px;
   float: left;
   width: 2em;
   height: auto;
-  margin: 0 1.2em 1em 0.4em;
+  margin: 1.2em 1.2em 1em 0.4em;
 }
 
 .service-gray-box {
@@ -6617,13 +6625,13 @@ border-radius:5px;
 
 /*---------------------custom css for about--------------------------------*/
 
-#about .about-advantage {
+.about-advantage {
   display: block;
   width: 100%;
   margin: 1em 0;
 }
 
-#about .about-advantage-img {
+.about-advantage-img {
   float: left;
   margin: 0 1.8em 0 0;
   padding: 6px;
@@ -6633,19 +6641,19 @@ border-radius:5px;
   box-sizing: border-box;
 }
 
-#about .about-advantage p {
+.about-advantage p {
   float: left;
   width: 85%;
   margin: 0;
 }
 
-#about .about-advantage-title {
+.about-advantage-title {
   display: block;
   margin-bottom: 1em;
   color: #0088cc;
 }
 
-#about .about-gray-box {
+.about-gray-box {
   display: table;
   width: 100%;
   padding: 0.8em 1.4em;
@@ -6653,11 +6661,11 @@ border-radius:5px;
   background-color: #ebebeb;
 }
 
-#about .about-icon {
+.about-icon {
   margin-left: 1.2em;
 }
 
-#about .about-gray-box p {
+.about-gray-box p {
   display: table-cell;
   vertical-align: middle;
   font-size: 1.2em;

@@ -9,10 +9,40 @@
   </head>
   <body>
     <div class="col-sm-12">
+      <style media="screen">
+      .payment-box {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 100%;
+        margin: 2em 0;
+        padding: 0;
+      }
+
+      .payment-box-icon {
+        display: block;
+        width: 100%;
+      }
+
+      .payment-title {
+        color: #2298d3;
+      }
+
+      .payment-box p {
+        display: block;
+        width: 100%;
+      }
+      @media screen and (min-width: 768px) {
+        .payment-box {
+          width: 40%;
+          margin: 2em 4%;
+        }
+      }
+      </style>
       <p>Доставка товаров из Германии производится по полной предоплате. Мы принимаем:</p>
       <div class="payment-box">
         <div class="payment-box-icon">
-          <img class="payment-icon" src="img/payments-1.png" alt="" width="93" height="93">
+          <img class="payment-icon" src="https://newelectro.store/image/payments-1.png" alt="" width="93" height="93">
         </div>
         <p><span class="payment-title">Онлайн-оплату пластиковыми картами
         VISA и MasterCard</span></p>
@@ -21,7 +51,7 @@
       </div>
       <div class="payment-box">
         <div class="payment-box-icon">
-          <img class="payment-icon" src="img/payments-2.png" alt="" width="93" height="93">
+          <img class="payment-icon" src="https://newelectro.store/image/payments-2.png" alt="" width="93" height="93">
         </div>
         <p><span class="payment-title">Безналичные переводы</span></p>
         <p>Вы можете оплатить выставленный счет в любом российском банке переводом на наш расчетный счет в Германии.

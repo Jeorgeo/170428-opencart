@@ -12,10 +12,20 @@
 
     <div class="col-sm-12">
     <style media="screen">
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
     .delivery-title {
       display: block;
       font-size: 1.2em;
-      margin-bottom: 1.5em;
+      margin-bottom: 2.5em;
+    }
+
+    p {
+      margin: 1.2em 0;
     }
 
     .develary-mark {
@@ -26,68 +36,100 @@
     }
 
     .delivery-icon {
-      float: left;
+      display: block;
       width: 66px;
       height: 66px;
-      margin-left: 0.5em;
-      margin-right: 1.5em;
+      margin: 0 auto;
     }
 
     .develary-mark p {
       display: inline-block;
       vertical-align: middle;
-      width: 80%;
+      width: 90%;
     }
 
     .delivery-gray-box {
       width: 100%;
+      margin: 2.5em 0;
       padding: 1em;
       background-color: #f3f6f7;
     }
 
     .delivery-gray-title {
-      float: left;
-      width: 70%;
+      display: block;
+      width: 90%;
       padding: 1.5% 0;
     }
 
     .delivery-gray-icon {
-      float: right;
-      width: 240px;
-      margin-right: 0.7em;
-      padding: 2em 2.5em;
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2em 2em;
       border: 3px solid #ffffff;
+      box-sizing: border-box;
     }
 
     .delivery-faq {
       text-align: center;
     }
+
+    @media screen and (min-width: 768px) {
+      .delivery-icon {
+        float: left;
+        width: 66px;
+        height: 66px;
+        margin-left: 0.5em;
+        margin-right: 1.5em;
+      }
+
+      .delivery-gray-title {
+        float: left;
+        width: 65%;
+        padding: 1.5% 0;
+      }
+
+      .delivery-gray-icon {
+        float: right;
+        width: 230px;
+        margin-right: 0.5em;
+        padding: 2em 2em;
+        border: 3px solid #ffffff;
+      }
+    }
+
+      @media screen and (min-width: 1280px) {
+        .delivery-gray-title {
+          width: 80%;
+        }
+      }
     </style>
       <p><span class="delivery-title">Что нужно знать о нашей доставке:</span></p>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-1.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-1.png" alt="" width="66" height="66">
         <p>Доставка по России бесплатная.</p>
       </div>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-2.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-2.png" alt="" width="66" height="66">
         <p>Мы доставляем товары Почтой России при страховании полной стоимости посылки компанией Ренессанс страхование.</p>
       </div>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-3.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-3.png" alt="" width="66" height="66">
         <p>Посылки упаковываются нашими немецкими поставщиками с особой тщательностью: используются ударопрочные материалы для избежания любых повреждений при транспортировке.</p>
       </div>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-4.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-4.png" alt="" width="66" height="66">
         <p>Максимальный вес посылки может достигать 31 кг.
         Суммарные габариты (длина+ширина+высота) не должны превышать 200 см.</p>
       </div>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-5.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-5.png" alt="" width="66" height="66">
         <p>Стоимость ваших покупок не должна превышать 1000 евро в месяц на человека:
         именно на эту сумму, согласно российскому законодательству, вы можете получить покупки из-за рубежа без оплаты дополнительных пошлин.</p>
       </div>
       <div class="develary-mark clearfix">
-        <img class="delivery-icon" src="img/delivery-6.png" alt="" width="66" height="66">
+        <img class="delivery-icon" src="https://newelectro.store/image/delivery-6.png" alt="" width="66" height="66">
         <p>Если вы заказываете несколько вещей, и таким образом ваша покупка выходит за предельные габариты или превышает максимальный вес, мы разобьем ваш заказ на несколько отправлений. Доставка остается бесплатной в независимости от количества посылок.</p>
       </div>
       <div class="delivery-gray-box clearfix">
@@ -103,7 +145,7 @@
 
        </div>
        <div class="delivery-gray-icon">
-         <img src="img/delivery-7.png" alt="" width="159" height="187">
+         <img src="https://newelectro.store/image/delivery-7.png" alt="" width="159" height="187">
        </div>
      </div>
      <div class="delivery-faq">
